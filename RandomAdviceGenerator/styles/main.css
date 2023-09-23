@@ -1,0 +1,131 @@
+/*! COMMON STYLES */
+
+:root {
+    /* PRIMARY COLORS */
+    --primary-color_light-cyan: hsl(193, 38%, 86%);
+    --primary-color_neon-green: hsl(150, 100%, 66%);
+    /* NEUTRAL COLORS */
+    --neutral-color_grayish-blue: hsl(217, 19%, 38%);
+    --neutral-color_dark-grayish-blue: hsl(217, 19%, 24%);
+    --neutral-color_dark-blue: hsl(218, 23%, 16%);
+}
+
+body, .card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advice-generator-btn, .footer-section {
+    display: flex;
+    justify-content: center;
+}
+
+/*! CUSTOM STYLES */
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--neutral-color_dark-blue);
+    padding-top: 12rem;
+}
+
+/* CARD SECTION */
+
+.card-section {
+    background-color: var(--neutral-color_dark-grayish-blue);
+    height: 31.4rem;
+    width: 34.3rem;
+    text-align: center;
+    padding: 4rem 1.4rem;
+    row-gap: 2.8rem;
+    border-radius: 1.2rem;
+    position: relative;
+}
+
+.advice-generator-card_heading {
+    font-size: 1.1rem;
+    color: var(--primary-color_neon-green);
+    letter-spacing: .3rem;
+}
+
+.advice-generator-card_text {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary-color_light-cyan);
+}
+
+.divider-figure {
+    margin-top: -1rem;
+}
+
+.divider-figure_desktop-img {
+    display: none;
+}
+
+.advice-generator-btn {
+    background-color: var(--primary-color_neon-green);
+    height: 6.4rem;
+    width: 6.4rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -3rem;
+    left: 50%;
+    transform: translate(-50%, 5%);
+    align-items: center;
+    transition: box-shadow .3s;
+}
+
+.advice-generator-btn:hover {
+    box-shadow: 0 0 3rem 2px var(--primary-color_neon-green);
+}
+
+/* FOOTER SECTION */
+
+.footer-section {
+	column-gap: 1rem;
+	width: 100%;
+	margin: auto 0 .1rem;
+}
+
+.footer-section a {
+	color: var(--primary-color_light-cyan);
+	font-size: 2rem;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.footer-section i {
+	color: var(--primary-color_neon-green);
+	height: 2rem;
+	width: 2rem;
+	transition: transform 0.5s ease-in-out;
+}
+
+.footer-section i:hover {
+	transform: rotate(360deg) scale(1.2);
+}
+
+/*? EDIT SOME STYLES FOR DESKTOP SECREEN SIZE */
+
+@media (min-width: 1440px) {
+    body {
+        padding-top: 22.4rem;
+    }
+    .card-section {
+        height: 33rem;
+        width: 54rem;
+    }
+    .advice-generator-card_heading {
+        font-size: 1.3rem;
+        letter-spacing: .46rem;
+    }
+    .advice-generator-card_text {
+        font-size: 2.2rem;
+    }
+    .divider-figure_mobile-img {
+        display: none;
+    }
+    .divider-figure_desktop-img {
+        display: block;
+    }
+}
