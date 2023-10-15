@@ -36,7 +36,11 @@ Your users should be able to:
 
 #### Mobile Layout (375px)
 
+![RandomAdviceGenerator_MobileLayoutDesign](https://github.com/selimbiber/RandomGenerators/assets/117529414/cbd630cd-8bc0-40d8-93c9-4e2c256949ec)
+
 #### Desktop Layout (1440px)
+
+![RandomAdviceGenerator_DesktopLayoutDesign](https://github.com/selimbiber/RandomGenerators/assets/117529414/6e5fa8b4-930b-44f8-9ffb-d1a1816f24ee)
 
 ### Built with
 
@@ -50,7 +54,7 @@ Your users should be able to:
 
 ### Project Links
 
-- [Frontend Mentor Solution]()
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/random-advice-generator-9TIOYFfgep)
 - [Live Preview Link](https://htmlpreview.github.io/?https://github.com/selimbiber/RandomGenerators/blob/main/RandomAdviceGenerator/index.html)
 
 ## Project Author
