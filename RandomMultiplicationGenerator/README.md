@@ -1,4 +1,4 @@
-# [Simple Note Taking Application | Basit Not Alma Uygulaması](https://www.100jsprojects.com/project/multiplication-app/)
+# [Random Multiplication Generator | Rastgele Çarpım İşlemi Üretici](https://www.100jsprojects.com/project/multiplication-app/)
 
 ## Project Description | Proje Açıklaması
 
