@@ -1,4 +1,4 @@
-# [Simple Note Taking Application | Basit Not Alma Uygulaması](https://www.100jsprojects.com/project/multiplication-app/)
+# [Random Multiplication Generator | Rastgele Çarpım İşlemi Üretici](https://www.100jsprojects.com/project/multiplication-app/)
 
 ## Project Description | Proje Açıklaması
 
@@ -6,7 +6,7 @@
 
 I find it easy and fun to make javascript projects from 100jsproject.com. My main goal in making these simple projects, even on a micro scale, is to use javascript more effectively and improve my skills in writing legible and maintainable code.
 
-### [Preview Link | Önizleme Bağlantısı](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/MultiplicationApplication/index.html)
+### [Preview Link | Önizleme Bağlantısı](https://htmlpreview.github.io/?https://github.com/selimbiber/RandomGenerators/blob/main/RandomMultiplicationGenerator/index.html)
 
 #### [Profile Links | Profil Bağlantıları](https://github.com/selimbiber/)
 
