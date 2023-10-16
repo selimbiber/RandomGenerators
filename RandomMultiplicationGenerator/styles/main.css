@@ -50,6 +50,11 @@ body {
             margin: 0;
         }
 
+        /* Firefox */
+        &[type=number] {
+            -moz-appearance: textfield;
+        }
+
         &:focus {
             outline-width: .3rem;
         }

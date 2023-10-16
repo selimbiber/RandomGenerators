@@ -21,7 +21,11 @@ document.querySelector('.submit-btn').onclick = () => {
 
 document.addEventListener('DOMContentLoaded', () => {
     currentScore = JSON.parse( window.localStorage.getItem('currentScore') );
-    document.querySelector('.current-score').textContent = currentScore;
+    if (currentScore === null) {
+        document.querySelector('.current-score').textContent = 0;
+    } else {
+        document.querySelector('.current-score').textContent = currentScore;
+    }
 });
 
 //? Helper Functions
