@@ -18,7 +18,8 @@ export default function Meme() {
     getMemes();
   }, []);
 
-  function getMemeImage() {
+  function getMemeImage(event) {
+    event.preventDefault();
     const randomNumber = Math.floor(Math.random() * allMemes.length);
     const name = allMemes[randomNumber].name;
     const url = allMemes[randomNumber].url;
@@ -38,7 +39,7 @@ export default function Meme() {
   }
   return (
     <main className="flex flex-col items-center justify-center px-4 m-auto gap-y-8">
-      <div className="flex flex-col gap-y-4">
+      <form className="flex flex-col gap-y-4">
         <fieldset className="grid grid-cols-2 gap-8">
           <label className="flex flex-col font-semibold">
             Top Text
@@ -67,7 +68,7 @@ export default function Meme() {
         >
           Get a new meme image 🖼
         </button>
-      </div>
+      </form>
       <div className="relative font-['Karla']">
         <img src={meme.randomImage} className="mx-auto rounded h-72" alt={meme.altText} />
         <h3 className="absolute inset-x-2 grid font-semibold text-white place-items-center [text-shadow:2px_2px_4px_var(--tw-shadow-color)] shadow-black top-4 text-[150%] uppercase">
